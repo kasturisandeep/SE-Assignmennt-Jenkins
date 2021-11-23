@@ -9,7 +9,7 @@ class TestSum(unittest.TestCase):
 
         data = [10,20,30,40,50]
         result = mul_by_2(data)
-        self.assertEqual(result, [20,40,60,80,100])
+        self.assertEqual(result, [30,60,60,78,200])
 
 if __name__ == '__main__':
     unittest.main()
